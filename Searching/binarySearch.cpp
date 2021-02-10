@@ -5,9 +5,9 @@ int binarySearch(int arr[], int key, int size){
     int start=0,end=size-1,mid;
     while(start<=end){
         mid=(start+end)/2;
-        if(mid>key){
+        if(arr[mid]>key){
             end=mid-1;
-        }else if(mid<key){
+        }else if(arr[mid]<key){
             start=mid+1;    
         }else{
             return mid;
@@ -44,3 +44,18 @@ int main(){
     
     return 0;
 }
+
+/*
+                                    OUTPUT
+
+SET 1 : ENTER THE SIZE OF ARRAY : 6
+
+        ENTER THE INTEGER VALUES FOR ARRAY
+        NOTE : Different Values must be seperated by space and Total values must be less than Size of Array, Also Values should be in sorted order
+        2 12 32 45 54 56
+
+        ENTER THE VALUE TO BE SEARCHED IN ARRAY : 54
+
+        Value to be searched is present at index number : 4
+
+*/
