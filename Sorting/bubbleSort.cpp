@@ -45,3 +45,16 @@ int main(){
 
     return 0;
 }
+
+/*
+                                    OUTPUT
+
+SET 1 : ENTER THE SIZE OF ARRAY : 7
+
+        ENTER THE INTERGER VALUES FOR ARRAY.
+        NOTE : Values must be seperated by space and Total values must be less than Size of Array.
+        211 32 3 2 21 12 67 
+
+        INPUTED ARRAY IN SORTED ORDER : 2 3 12 21 32 67 211
+
+*/
