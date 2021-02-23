@@ -14,12 +14,7 @@ void bubbleSort(int arr[], int size){
             }    
         }
         
-    }
-
-    for (int  i = 0; i < size; i++){
-        cout<<arr[i]<<" ";
-    }
-        
+    }          
 
     return;
 }
@@ -42,6 +37,10 @@ int main(){
     cout<<endl;
     cout<<"INPUTED ARRAY IN SORTED ORDER : ";
     bubbleSort(arr, size);
+
+    for (int  i = 0; i < size; i++){
+        cout<<arr[i]<<" ";
+    }
 
     return 0;
 }
