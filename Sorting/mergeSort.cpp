@@ -59,7 +59,7 @@ int main(){
 
     int arr[size];
     cout<<"ENTER THE INTERGER VALUES FOR ARRAY."<<endl;
-    cout<<"NOTE : Values must be seperated by space and Total values must be less than Size of Array."<<endl;
+    cout<<"NOTE: Values must be seperated by space and Total values must be less than Size of Array."<<endl;
     
     for (int i = 0; i < size; i++){
         cin>>arr[i];
